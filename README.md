@@ -20,10 +20,10 @@ If we want to write code of any complexity, we are going to need to understand o
 <!-- specific/measurable goal for students to achieve -->
 *After this workshop, developers will be able to:*
 
-- describe objects as collections of key value pairs.
-- demonstrate the ability to access any attribute of an object in two ways - `.` syntax and `[]` syntax
-- Display the difference between properties (attributes) and methods. Call an object's methods. Recognize the widespread presence of objects throughout JavaScript syntax (`console.log()`, `$('div').text()`, `string.length`)
-- find and display an example of JSON on the web
+- Describe objects as collections of key value pairs.
+- Demonstrate the ability to access any attribute of an object in two ways - `.` syntax and `[]` syntax
+- Display the difference between properties (attributes) and methods, and call an object's methods correctly.
+- Find and display an example of JSON on the web
 
 
 ### Where should we be now?
@@ -44,7 +44,7 @@ If we want to write code of any complexity, we are going to need to understand o
 
 ![image](https://cloud.githubusercontent.com/assets/6520345/17868768/15cd042c-6865-11e6-87d8-2ebbd26ffbf4.png)
 
-As of today, we have been writing our Javascript code using mainly functions, Strings, numbers, and Arrays. You've written functions that can print patterns of text, you've accessed the DOM with jQuery, and listened for events on the page. We haven't yet gathered a bunch of strings, numbers, arrays, and functions into a single collection of information. This is where objects come in. An object is **a collection of key-value pairs** that all have some sort of relationship and are connected logically to one another. Below is an example of an object.
+As of today, we have been writing our Javascript code using mainly functions, Strings, numbers, and Arrays. We haven't yet gathered a bunch of strings, numbers, arrays, and functions into a single collection of information. This is where objects come in. An object is **a collection of key-value pairs** that all have some sort of relationship and are connected logically to one another. Below is an example of an object.
 
 ``` javascript
 // Literal Object Definition
@@ -177,23 +177,22 @@ console.log(car.currentSpeed); // will print 20
 
 ## Create Objects!
 
-Go to terminal, run `node` and generate a car object directly in the code. Include all of the properties that I have used above and add at least 5 attributes of your own. Write one method that is unique to your car object.
+Open the Chrome developer tools and create your own car object. Include all of the properties above and add at least 5 attributes of your own. Write one method that is unique to your car object.
 
 ## Objects are Everywhere!
 
-Objects are all over JavaScript syntax. Look throughout the JavaScript code we've encountered so far, look for the dot notation. Find three examples of objects in normal JavaScript syntax. Include your evidence for why your example is definitely an object.
+Objects are all over JavaScript syntax. Look throughout the JavaScript code we've encountered so far, searching for the dot notation. Find three examples of objects in normal JavaScript syntax. Include your evidence for why your example is definitely an object.
 
 
 ## Accessing Data from an Object
 
-Below is a truncated version of our cohort data. The `data` object is a grouping of key -value pairs that describe our class.  Take some time to study the structure and the data types within the data object. It's a bit more complex.
+Below is a truncated version of some example GA cohort data. The `data` object is a grouping of key-value pairs that describe the class.  Take some time to study the structure and the data types within the data object. It's a bit more complex.
 
 ```javascript
 var data = {
 	school: "General Assembly",
 	city: "San Francisco",
 	course: "Web Development Immersive",
-	course_id: "WDI31",
 	classroom: "4",
 	students: [{
 		id: 124140,
@@ -223,8 +222,6 @@ var data = {
   </p>
 </details>
 
-What data type are the elements within `students`?
-
 <details>
   <summary>What data type are the elements within `students`?</summary>
   <p>
@@ -234,18 +231,18 @@ What data type are the elements within `students`?
 
 To access a property, we can use dot-notation or bracket-notation on the key to have the corresponding value returned.
 
-How would you access the `students` attribute of the `data` object?
-
 <details>
   <summary>How would you access the `students` attribute of the `data` object?</summary>
   <p>
   ```javascript
-  data.students
+  data.students;
+  // or
+  data["students"];
   ```
   </p>
 </details>
 
-To access an array within an object,  the method is similar to accessing any other property.  The property `students` is an array of Objects.  To access that array and assign it to a variable, we simply perform the following:
+To access an array within an object, the method is similar to accessing any other property.  The property `students` is an array of Objects.  To access that array and assign it to a variable, we simply perform the following:
 
  ```javascript
  var studentArray = data.students; //students
@@ -283,13 +280,13 @@ The `data.students` array is now accessible by using `studentArray` instead.
 
 ## JSON
 
-JSON stands for **JavaScript Object Notation**. It is a standard for communicating information across the internet. JSON is data formatted to look like JavaScript objects, with just a few small quirks. Most importantly, JSON stores all of the key names as strings. Here is an example of [some JSON on the web](https://api.spotify.com/v1/search?q=demon%20days&type=album).
+JSON stands for **JavaScript Object Notation**. It is a standard for communicating information across the internet. JSON is data formatted to look like JavaScript objects, with just a few small quirks. Most importantly, JSON stores all of the key names as strings. Here is an example of [some JSON on the web](https://api.spotify.com/v1/search?q=walk%20off%20the%20earth&type=album).
 
-You can see that this is a HUGE object with tons of data. It is the result of searching Spotify's albums for the string "demon days".
+You can see that this is a HUGE object with tons of data. It is the result of searching Spotify's albums for the string "walk off the earth".
 
 To make this all a bit less overwhelming, download the [JSONview Chrome plugin](https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc?hl=en), which will help you collapse and expand sections of the data as needed.
 
-![image](https://cloud.githubusercontent.com/assets/6520345/17868426/b8f5dc98-6863-11e6-989f-6b31d7a922d1.png)
+![](https://cloud.githubusercontent.com/assets/6520345/17868426/b8f5dc98-6863-11e6-989f-6b31d7a922d1.png)
 
 <details>
   <summary>Challenge: Assuming the whole JSON is named `data`, access the URL of the first image from the first search result from this piece of JSON.</summary>
@@ -301,14 +298,13 @@ To make this all a bit less overwhelming, download the [JSONview Chrome plugin](
 </details>
 
 
-#### Note: Arrays are special objects! An array is an object with numerical keys.
+#### Note: Arrays are just special objects! An array is an object with numerical keys.
 
 ## Independent Practice
-Refine the skills covered in this workshop with this [training](https://github.com/sf-wdi-31/js-objects-training).
+Refine the skills covered in this workshop with this [training](https://github.com/SF-WDI-LABS/js-objects-training).
 
 ## Closing Thoughts
-- We're going to be using objects heavily this week in inspecting JSON. If accessing specific properties of an object is feeling challenging, practice in the terminal using node's REPL. Create an object and then try to access a specific property.
-- Take 2 minutes to write down everything you know about objects without looking at any other resources.
+- We're going to be using objects heavily in inspecting JSON. If accessing specific properties of an object is feeling challenging, practice in the developer console. Create an object and then try to access a specific property.
 
 ## Additional Resources
 - [Eloquent JavaScript's Objects and Arrays chapter](http://eloquentjavascript.net/04_data.html)
