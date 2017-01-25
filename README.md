@@ -179,11 +179,6 @@ console.log(car.currentSpeed); // will print 20
 
 Open the Chrome developer tools and create your own car object. Include all of the properties above and add at least 5 attributes of your own. Write one method that is unique to your car object.
 
-## Objects are Everywhere!
-
-Objects are all over JavaScript syntax. Look throughout the JavaScript code we've encountered so far, searching for the dot notation. Find three examples of objects in normal JavaScript syntax. Include your evidence for why your example is definitely an object.
-
-
 ## Accessing Data from an Object
 
 Below is a truncated version of some example GA cohort data. The `data` object is a grouping of key-value pairs that describe the class.  Take some time to study the structure and the data types within the data object. It's a bit more complex.
