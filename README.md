@@ -284,7 +284,7 @@ JSON stands for **JavaScript Object Notation**. It is a standard for communicati
 
 You can see that this is a HUGE object with tons of data. It is the result of searching Spotify's albums for the string "walk off the earth".
 
-To make this all a bit less overwhelming, download the [JSONview Chrome plugin](https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc?hl=en), which will help you collapse and expand sections of the data as needed.
+During InstallFest, you should have installed the [JSONview Chrome plugin](https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc?hl=en), which will help you collapse and expand sections of the data as needed. It should automatically run on this site when you open it.
 
 ![](https://cloud.githubusercontent.com/assets/6520345/17868426/b8f5dc98-6863-11e6-989f-6b31d7a922d1.png)
 
