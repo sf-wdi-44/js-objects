@@ -293,7 +293,17 @@ During InstallFest, you should have installed the [JSONview Chrome plugin](https
 </details>
 
 
-#### Note: Arrays are just special objects! An array is an object with numerical keys.
+## Special Object Types
+
+* Arrays are just special objects! An array is an object that has numerical keys and is "[iterable](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols#Builtin_iterables)".
+
+* Functions are special objects that are callable.
+
+* ES6 added even more types of objects. Here are just a few:
+
+  - `[Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map)`s are like objects you can easily loop over. They store key-value pairs, but they're iterable like arrays. Consider a map when you don't know what keys you will have ahead of time.  They're also great if you need keys that aren't strings.
+
+  - `[Set](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set)`s are iterable lists of unique values. They don't allow duplicates, and they basically treat each entry as both a key and a value.
 
 ## Independent Practice
 Refine the skills covered in this workshop with this [training](https://github.com/SF-WDI-LABS/js-objects-training).
