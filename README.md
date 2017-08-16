@@ -246,12 +246,16 @@ The `data.students` array is now accessible by using `studentArray` instead.
 
 
 <details>
-  <summary>How would you access Alicia's data from within the `data` object?</summary>
-  <p>
-  ```javascript
-    data.students[2]
-  ```
-  </p>
+<summary>
+
+How would you access Alicia's data from within the `data` object?
+
+</summary>
+
+```javascript
+  data.students[2]
+```
+
 </details>
 
 <details>
