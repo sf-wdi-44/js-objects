@@ -255,22 +255,22 @@ The `data.students` array is now accessible by using `studentArray` instead.
 </details>
 
 <details>
-  <summary>How would you access Sera's GitHub username?</summary>
-  <p>
-  ```javascript
-    data.students[1].gitHubUsername;
-  ```
-  </p>
+<summary>How would you access Sera's GitHub username?</summary>
+
+```javascript
+  data.students[1].gitHubUsername;
+```
+
 </details>
 
 
 <details>
-  <summary>How would you access Abbas's student id?</summary>
-  <p>
-  ```javascript
-    data.students[0].id;
-  ```
-  </p>
+<summary>How would you access Abbas's student id?</summary>
+
+```javascript
+  data.students[0].id;
+```
+
 </details>
 
 ## JSON
