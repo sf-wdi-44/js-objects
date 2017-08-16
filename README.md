@@ -211,30 +211,30 @@ var data = {
 
 
 <details>
-  <summary>What data type is the value associated with the `students` key in the `data` object?</summary>
-  <p>
-  The `students` attribute is an array!
-  </p>
+  <summary>What data type is the value associated with the students key in the data object?</summary>
+
+The `students` attribute is an array!
+
 </details>
 
 <details>
-  <summary>What data type are the elements within `students`?</summary>
-  <p>
-  The `students` array contains objects as its elements!
-  </p>
+  <summary>What data type are the elements within students?</summary>
+
+The `students` array contains objects as its elements!
+
 </details>
 
 To access a property, we can use dot-notation or bracket-notation on the key to have the corresponding value returned.
 
 <details>
-  <summary>How would you access the `students` attribute of the `data` object?</summary>
-  <p>
-  ```javascript
-  data.students;
-  // or
-  data["students"];
-  ```
-  </p>
+  <summary>How would you access the students attribute of the data object?</summary>
+
+```javascript
+data.students;
+// or
+data["students"];
+```
+
 </details>
 
 To access an array within an object, the method is similar to accessing any other property.  The property `students` is an array of Objects.  To access that array and assign it to a variable, we simply perform the following:
@@ -246,11 +246,7 @@ The `data.students` array is now accessible by using `studentArray` instead.
 
 
 <details>
-<summary>
-
-How would you access Alicia's data from within the `data` object?
-
-</summary>
+<summary>How would you access Alicia's data from within the data object?</summary>
 
 ```javascript
   data.students[2]
