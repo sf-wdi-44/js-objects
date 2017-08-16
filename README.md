@@ -284,12 +284,12 @@ During InstallFest, you should have installed the [JSONview Chrome plugin](https
 ![](https://cloud.githubusercontent.com/assets/6520345/17868426/b8f5dc98-6863-11e6-989f-6b31d7a922d1.png)
 
 <details>
-  <summary>Challenge: Assuming the whole JSON is named `data`, access the URL of the first image from the first search result from this piece of JSON.</summary>
-  <p>
-  ```javascript
-    data.albums.items[0].images[0].url;
-  ```
-  </p>
+  <summary>Challenge: Assuming the whole JSON is named data, access the URL of the first image from the first search result from this piece of JSON.</summary>
+
+```javascript
+  data.albums.items[0].images[0].url;
+```
+
 </details>
 
 
