@@ -275,7 +275,7 @@ The `data.students` array is now accessible by using `studentArray` instead.
 
 ## JSON
 
-JSON stands for **JavaScript Object Notation**. It is a standard for communicating information across the internet. JSON is data formatted to look like JavaScript objects, with just a few small quirks. Most importantly, JSON stores all of the key names as strings. Here is an example of [some JSON on the web](https://api.spotify.com/v1/search?q=walk%20off%20the%20earth&type=album).
+JSON stands for **JavaScript Object Notation**. It is a standard for communicating information across the internet. JSON is data formatted to look like JavaScript objects, with just a few small quirks. Most importantly, JSON stores all of the key names as strings. Here is an example of [some JSON on the web](https://dog.ceo/api/breeds/list/all).
 
 You can see that this is a HUGE object with tons of data. It is the result of searching Spotify's albums for the string "walk off the earth".
 
