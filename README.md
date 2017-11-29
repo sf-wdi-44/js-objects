@@ -277,7 +277,7 @@ The `data.students` array is now accessible by using `studentArray` instead.
 
 JSON stands for **JavaScript Object Notation**. It is a standard for communicating information across the internet. JSON is data formatted to look like JavaScript objects, with just a few small quirks. Most importantly, JSON stores all of the key names as strings. Here is an example of [some JSON on the web](https://dog.ceo/api/breeds/list/all).
 
-You can see that this is a HUGE object with tons of data. It is the result of searching Spotify's albums for the string "walk off the earth".
+You can see that this is a HUGE object with tons of data. It's from an API with information about dogs; this is their list of all the dog breeds they support.
 
 During InstallFest, you should have installed the [JSONview Chrome plugin](https://chrome.google.com/webstore/detail/jsonview/chklaanhfefbnpoihckbnefhakgolnmc?hl=en), which will help you collapse and expand sections of the data as needed. It should automatically run on this site when you open it.
 
