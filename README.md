@@ -296,7 +296,7 @@ During InstallFest, you should have installed the [JSONview Chrome plugin](https
 #### Note: Arrays are just special objects! An array is an object with numerical keys.
 
 ## Independent Practice
-Refine the skills covered in this workshop with this [training](https://github.com/SF-WDI-LABS/js-objects-training).
+Refine the skills covered in this workshop with this [training](https://github.com/sf-wdi-44/js-objects-training).
 
 ## Closing Thoughts
 - We're going to be using objects heavily in inspecting JSON. If accessing specific properties of an object is feeling challenging, practice in the developer console. Create an object and then try to access a specific property.
